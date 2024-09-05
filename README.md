@@ -26,7 +26,8 @@ The **Number Guessing Game** is a fun and interactive web application that chall
 
 Check out the live demo of the Number Guessing Game on Vercel:
 
-[Live Demo](https://number-guessing-game.vercel.app/)
+[Live Demo](https://number-guessing-game-quds.vercel.app/)
+
 
 ## Screenshot
 
