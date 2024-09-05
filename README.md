@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Day 4 Project: Number Guessing Game 🎯🔢
 
-## Getting Started
+Welcome to Day 4 of my **30 Days 30 Projects Challenge**!
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The **Number Guessing Game** is a fun and interactive web application that challenges users to guess a randomly generated number. It includes features to start and pause the game, make guesses, and see the number of attempts made.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Start, Pause, and Guess**: Begin a new game, pause it, and guess the number.
+- **Try Again**: Option to restart the game and guess again.
+- **Guess Attempts**: Displays the number of attempts made by the user.
+- **Responsive Design**: Fully responsive layout that works well on all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js**: Built using the Next.js framework.
+- **React**: Manages the UI components and game logic.
+- **TypeScript**: Provides type safety and handles the logic.
+- **shadcn/ui**: Designed the UI with this component library.
+- **Tailwind CSS**: Ensures a consistent and beautiful design across the app.
+- **Vercel**: Used for deploying the app.
 
-To learn more about Next.js, take a look at the following resources:
+## Live Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Check out the live demo of the Number Guessing Game on Vercel:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[Live Demo](https://number-guessing-game.vercel.app/)
 
-## Deploy on Vercel
+## Screenshot
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Number Guessing Game](https://github.com/user-attachments/assets/f2646f63-456e-4d17-a7ca-a8877c7c3cf9)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
