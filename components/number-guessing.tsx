@@ -71,7 +71,7 @@ export default function NumberGuessing(): JSX.Element {
       triggerConfetti(); // Trigger confetti on correct answer
     } else if (typeof userGuess === "number") {
       // If the guess is wrong, give a hint
-      setHint(userGuess < targetNumber ? "Higher!" : "Lower!");
+      setHint(userGuess < targetNumber ? "Guess a bigger number!" : "Guess a smaller number!");
       setAttempts(attempts + 1); // Increment the attempts counter
     }
   };
